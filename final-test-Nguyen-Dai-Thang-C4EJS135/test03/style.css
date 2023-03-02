@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    
+}
+
+.container {
+    max-width: 1213px;
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+/* header */
+.header{
+    padding-top: 70px;
+}
+
+.header_container{
+    display: flex;
+    gap: 152px;
+    width: 1013px;
+    margin-top: 24px;
+    
+}
+
+.header_container input{
+    width: 300px;
+    height: 60px;
+    padding: 16px 30px;
+    font-size: 16px;
+    position: relative;
+    border: 1px solid #BFC8E6;
+}
+
+.header_container .headers i{
+    position: absolute;
+    top: 163px;
+    left: 112px;
+}
+
+.header_container .nav_header{
+    width: 530px;
+    height: 60px;
+    margin-top: 18px;
+}
+
+.nav_header span{
+    width: 100% / 3;
+    padding: 16px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.nav_header span:hover{
+    transform: scale(1.2);
+}
+
+.nav_header span:nth-child(2){
+    color: white;
+    background-color:  #849FFF;
+    border-radius: 8px;
+    border: none;
+    transition: all 1s ;
+}
+
+.nav_header span:nth-child(2):hover{
+    transform: scale(1.1);
+}
+
+
+/* hero */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1013px;
+    gap: 16px;
+    padding-top: 70px;
+}
+
+.cards .card_item{
+    width: 32%;
+    height: 200px;
+    display: flex;
+    gap: 16px;
+    padding-left: 24px;
+    padding-top: 24px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.card_item:hover{
+    transform: scale(1.1);
+}
+
+
+.card_item img{
+    width: 90px;
+}
+
+.info .name{
+    color: #151B32;
+    font-size: 13px;
+    
+    
+}
+.info .address{
+    padding-top: 4px;
+    font-size: 12px;
+}
+.info{
+    width: 150px;
+}
+ .info .skill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 10px;
+ }
+.info .skill span{
+    font-weight: 500;
+    font-size: 10px;
+    color: #516FD5;;
+    border-radius: 10px;
+    border: #BFC8E6 solid 1px;
+    padding: 4px 8px;
+}
+
+.card_item:nth-child(2){
+    border-radius: 10px;
+    border: #BFC8E6 solid 1px;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+

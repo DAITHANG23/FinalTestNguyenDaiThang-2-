@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(231, 226, 226);
+    max-width: 1440px;
+}
+
+.container {
+    max-width: 1266px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 120, 245);
+    width: 720px;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    
+}
+.container-form h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.calculator-input{
+    width: 100%;
+    
+}
+
+.calculation{
+    width: 40%;
+    height: 30px;
+    margin: 0 auto;
+
+}
+
+.calculator-input div{
+    padding-bottom: 10px;
+}
+.calculator-input label{
+    display: inline-block;
+    width: 150px;
+}
+
+.calculator-input input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+.calculator-input #result{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(207, 197, 197);
+   
+}
+
+
+.calculation{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.calculation div{
+    padding: 0 18px;
+}
+
+.calculation button{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.calculation button:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.notice p{
+    color: red;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.notice button{
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 256px;
+    padding: 5px 5px;
+    margin-left: 190px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.notice button:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
